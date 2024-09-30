@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(121, 60, 183);
+    /* background-image: url(coffe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  */
+    }
+    
+    .container {
+        /* justify-content: center; */
+        /* backdrop-filter: blur(6px); */
+        /* border: 2px solid rgba(255, 255, 255, 0.507); */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.422);
+        height: 25em;
+        width: 20em;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        position: absolute;
+        /*left: 38%;
+        */left: 24%;
+        top: 20%;
+        /* background-color: transparent; */
+        /* border-radius: 12px; */
+        background-color: rgb(255, 255, 255);
+        /*background-color: rgba(0, 0, 0, 0.47); */
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+}
+    
+    .container img {
+        box-shadow: 6px 0 6px rgba(0, 0, 0, 0.422) ;
+        height: 25em;
+        width: 21em;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    
+    .container p {
+        font-size: 14px;
+        color: black;
+        /* color: white; */
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
+    
+    .container input {
+        color: black;
+        outline: none;
+        border-radius: 12px;
+        /* border-bottom: 1px solid black; */
+        height: 24px;
+        width: 249px;
+        font-size: 10px;
+        text-align: center;
+        /* background-color: transparent; */
+        background-color: white;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    
+    /* .container input::placeholder {
+        color: white;
+    } */
+    
+    .container .submit {
+        /* align-items: center; */
+        font-size: 12px;
+        font-weight: bold;
+        width: 256px;
+        border-radius: 20px;
+        height: 30px;
+        /* color: black; */
+        color: white;
+        /* background-color: white; */
+        background-color: rgb(25, 91, 234);
+        /* background-color: rgba(0, 0, 0, 0.45); */
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    
+    .container .submit:hover {
+        cursor: pointer;
+        /* color: black; */
+        background-color: rgb(16, 70, 187);
+    }
+    
+    fieldset {
+        border: none;
+        display: inline-block;
+        font-size: 20px;
+        font-family: 'optima', 'Times New Roman', Times, serif;
+        /* padding: 1em 2em; */
+    }
+    
+    legend {
+        text-align: center;
+        align-items: center;
+        color: black;
+        /* color: white; */
+        margin-bottom: 10px;
+        padding: 0.5em 1em;
+        font-weight: bold;
+    
+    }

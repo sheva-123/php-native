@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+  
+  fieldset{
+    margin: 1rem 0;
+      border: 2px dashed rgb(108, 98, 98);
+      display: inline-block;
+      font-size: 20px;
+      font-family:"Optima", 'Times New Roman', Times, serif ;
+      padding: 1em 2em;
+  
+  }
+  legend{
+      color: white;
+      margin-bottom: 10px;
+      padding: 0.5em 1em;
+      background-color: black;
+  }
+  
+  
+  /* navbar start */
+  .navbar {
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      background-color: rgb(1, 1, 1, 0.8);
+      padding: 1.4rem;
+      border-bottom: 2px solid white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+    }
+    
+    .navbar h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: italic;
+      font-weight: bold;
+    }
+    
+    .navbar h1 span {
+      color: #bc9667;
+      font-style: italic;
+      font-weight: bold;
+    }
+    
+    .navbar .mndd {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      width: 5.4rem;
+    }
+    
+    .navbar .mndd a:hover {
+      background-color: #352006;
+      /* padding: 0; */
+      color: #bc9667;
+    }
+    
+    .services:hover .mndd {
+      display: block;
+      background-color: #352006;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+    }
+    
+    .navbar .mndd li {
+      padding: 0 1.4rem;
+      margin: 0.5rem -1rem;
+      font-size: 13px;
+    }
+    
+    .navbar ul li {
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .navbar ul li a {
+      color: white;
+      margin-right: 18px;
+      font-weight: bold;
+      padding: 6px;
+    }
+    
+    .navbar ul li a:hover {
+      transition: 0.3s;
+      background-color: #bc9667;
+      padding: 6px;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+    }
+    /* css navbar end */
+  
+    .iptprd tr td {
+      padding: 10px 1.4rem;
+    }
+  
+    .iptprd .iptinp {
+      border: 1px solid black;
+      cursor: pointer;
+      padding: 4px;
+      color: rgb(255, 255, 255);
+      background-color: #deb684;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+    }
+    
+    .iptprd .iptinp:hover {
+      background-color: #4e2f09;
+    }
+  
+  
+    .dtprdk .trprdk {
+      text-align: center;
+    }
+  
+    #riwayat table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: rgba(0, 0, 0, 0.7);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      color: white;
+  }
+  
+  #riwayat table th, #riwayat table td {
+  
+      padding: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  #riwayat table th {
+      background-color: rgba(60, 60, 60, 0.9);
+      text-transform: uppercase;
+  }
+  
+  #riwayat table tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  #riwayat input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #riwayat input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #riwayat input[type="text"],
+  #riwayat input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: black;
+    width: 100%;
+    max-width: 300px;
+  }

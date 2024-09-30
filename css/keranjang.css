@@ -1,0 +1,165 @@
+/* Reset and Body Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(1, 1, 1);
+    color: rgb(245, 250, 254);
+    height: 800px;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 1, 0.8);
+    padding: 1.4rem;
+    border-bottom: 2px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navbar h1 span {
+    color: #bc9667;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navbar .mndd {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 5.4rem;
+}
+
+.navbar .mndd a:hover {
+    background-color: #352006;
+    color: #bc9667;
+}
+
+.services:hover .mndd {
+    display: block;
+    background-color: #352006;
+    border-radius: 5px;
+}
+
+.navbar .mndd li {
+    padding: 0 1.4rem;
+    margin: 0.5rem -1rem;
+    font-size: 13px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar ul li a {
+    color: white;
+    margin-right: 18px;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.navbar ul li a:hover {
+    transition: 0.3s;
+    background-color: #bc9667;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+/* conten1 Section Styles */
+#shopp {
+    min-height: 100vh;
+    background-position: center;
+    background-image: url(/img/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 100px; /* Adjust for fixed navbar */
+    text-align: center;
+}
+
+#shopp .sopp {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#shopp table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* #shopp table th, #shopp table td {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+} */
+
+#shopp table th {
+    background-color: rgba(60, 60, 60, 0.9);
+    text-transform: uppercase;
+}
+
+#shopp table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* #shopp input[type="text"], #shopp input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: black;
+    width: 100%;
+    max-width: 300px;
+} */
+
+/* #shopp label {
+    margin-right: 12rem;
+    font-weight: bold;
+} */
+
+/* #shopp button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#shopp button[type="submit"]:hover {
+    background-color: #45a049;
+} */
+
+#shopp .checkout-button {
+    /* width: 100%; */
+    margin-left: -3rem;
+    max-width: 300px;
+    margin-bottom: 2rem;
+}
